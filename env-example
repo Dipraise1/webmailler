@@ -1,0 +1,18 @@
+# Database
+DATABASE_URL="postgresql://username:password@localhost:5432/webmail"
+
+# NextAuth
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="your-secret-key-here"
+
+# SMTP Configuration
+SMTP_HOST=smtp.mydomain.com
+SMTP_PORT=587
+SMTP_USER=myuser@mydomain.com
+SMTP_PASS=my_secure_pass
+EMAIL_FROM="My Webmail <myuser@mydomain.com>"
+
+# DKIM Configuration (optional - for enhanced deliverability)
+DKIM_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----\nYOUR_PRIVATE_KEY_HERE\n-----END RSA PRIVATE KEY-----"
+DKIM_SELECTOR=default
+DKIM_DOMAIN=mydomain.com 
